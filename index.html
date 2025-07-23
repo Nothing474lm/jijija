@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UX/UI Academy - Aprendizaje Profesional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>UX/UI Academy</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#principles">Principios</a></li>
+                <li><a href="#tools">Herramientas</a></li>
+                <li><a href="#exercises">Ejercicios</a></li>
+                <li><a href="#resources">Recursos</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Domina el Arte del Diseño UX/UI</h1>
+                <p>Aprende los principios fundamentales del diseño de experiencia de usuario e interfaz con un enfoque minimalista y profesional.</p>
+                <button class="cta-button">Comenzar Aprendizaje</button>
+            </div>
+            <div class="hero-visual">
+                <div class="design-grid">
+                    <div class="grid-item"></div>
+                    <div class="grid-item active"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item active"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item active"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="principles" class="principles">
+            <div class="container">
+                <h2>Principios Fundamentales</h2>
+                <div class="principles-grid">
+                    <div class="principle-card">
+                        <div class="principle-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3>Usabilidad</h3>
+                        <p>Diseño intuitivo que permite a los usuarios completar tareas de manera eficiente y sin fricción.</p>
+                    </div>
+                    <div class="principle-card">
+                        <div class="principle-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Accesibilidad</h3>
+                        <p>Interfaces inclusivas que funcionan para todos los usuarios, independientemente de sus capacidades.</p>
+                    </div>
+                    <div class="principle-card">
+                        <div class="principle-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h3>Jerarquía Visual</h3>
+                        <p>Organización clara de elementos que guía la atención del usuario de manera lógica.</p>
+                    </div>
+                    <div class="principle-card">
+                        <div class="principle-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Responsive Design</h3>
+                        <p>Adaptación fluida a diferentes dispositivos y tamaños de pantalla.</p>
+                    </div>
+                    <div class="principle-card">
+                        <div class="principle-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Experiencia Emocional</h3>
+                        <p>Diseño que conecta emocionalmente con los usuarios y genera engagement.</p>
+                    </div>
+                    <div class="principle-card">
+                        <div class="principle-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Simplicidad</h3>
+                        <p>Eliminación de elementos innecesarios para crear interfaces limpias y funcionales.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tools" class="tools">
+            <div class="container">
+                <h2>Herramientas Esenciales</h2>
+                <div class="tools-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Research & Planning</h3>
+                            <ul>
+                                <li>User Personas</li>
+                                <li>Journey Maps</li>
+                                <li>Wireframes</li>
+                                <li>Information Architecture</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Design & Prototyping</h3>
+                            <ul>
+                                <li>Figma / Sketch</li>
+                                <li>Adobe XD</li>
+                                <li>Principle</li>
+                                <li>InVision</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Testing & Validation</h3>
+                            <ul>
+                                <li>User Testing</li>
+                                <li>A/B Testing</li>
+                                <li>Analytics</li>
+                                <li>Heatmaps</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="exercises" class="exercises">
+            <div class="container">
+                <h2>Ejercicios Prácticos</h2>
+                <div class="exercise-tabs">
+                    <button class="tab-button active" data-tab="wireframe">Wireframing</button>
+                    <button class="tab-button" data-tab="prototype">Prototyping</button>
+                    <button class="tab-button" data-tab="usability">Usability Testing</button>
+                </div>
+                <div class="tab-content">
+                    <div class="tab-panel active" id="wireframe">
+                        <div class="exercise-card">
+                            <h3>Ejercicio: Wireframe de App de Tareas</h3>
+                            <p>Crea un wireframe para una aplicación de gestión de tareas usando los principios de jerarquía visual.</p>
+                            <div class="wireframe-demo">
+                                <div class="wireframe-header"></div>
+                                <div class="wireframe-content">
+                                    <div class="wireframe-task"></div>
+                                    <div class="wireframe-task"></div>
+                                    <div class="wireframe-task"></div>
+                                </div>
+                                <div class="wireframe-button"></div>
+                            </div>
+                            <button class="exercise-btn">Comenzar Ejercicio</button>
+                        </div>
+                    </div>
+                    <div class="tab-panel" id="prototype">
+                        <div class="exercise-card">
+                            <h3>Ejercicio: Prototipo Interactivo</h3>
+                            <p>Desarrolla un prototipo funcional con microinteracciones que mejoren la experiencia del usuario.</p>
+                            <button class="exercise-btn">Comenzar Ejercicio</button>
+                        </div>
+                    </div>
+                    <div class="tab-panel" id="usability">
+                        <div class="exercise-card">
+                            <h3>Ejercicio: Test de Usabilidad</h3>
+                            <p>Diseña y ejecuta un test de usabilidad para validar tu diseño con usuarios reales.</p>
+                            <button class="exercise-btn">Comenzar Ejercicio</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resources" class="resources">
+            <div class="container">
+                <h2>Recursos Recomendados</h2>
+                <div class="resources-grid">
+                    <div class="resource-category">
+                        <h3>Libros</h3>
+                        <ul>
+                            <li>"Don't Make Me Think" - Steve Krug</li>
+                            <li>"The Design of Everyday Things" - Don Norman</li>
+                            <li>"Atomic Design" - Brad Frost</li>
+                            <li>"About Face" - Alan Cooper</li>
+                        </ul>
+                    </div>
+                    <div class="resource-category">
+                        <h3>Herramientas</h3>
+                        <ul>
+                            <li>Figma - Diseño colaborativo</li>
+                            <li>Miro - Mapas mentales y colaboración</li>
+                            <li>Hotjar - Analytics y heatmaps</li>
+                            <li>UsabilityHub - Testing remoto</li>
+                        </ul>
+                    </div>
+                    <div class="resource-category">
+                        <h3>Comunidades</h3>
+                        <ul>
+                            <li>Dribbble - Inspiración visual</li>
+                            <li>Behance - Portfolios profesionales</li>
+                            <li>Designer Hangout - Slack community</li>
+                            <li>UX Mastery - Recursos educativos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>UX/UI Academy</h3>
+                    <p>Formando diseñadores del futuro con metodologías profesionales y enfoque práctico.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="#principles">Principios</a></li>
+                        <li><a href="#tools">Herramientas</a></li>
+                        <li><a href="#exercises">Ejercicios</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contacto</h4>
+                    <p>academy@uxui.edu</p>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 UX/UI Academy. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
